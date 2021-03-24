@@ -19,7 +19,7 @@ export PATH=$PATH:$(realpath .)
 make
 ```
 
-**Note:**Each project has a corresponding Makefile that builds the binary firmware (i.e *project_name.elf*). Make use of it to individually build each firmware.
+**Note:** Each project has a corresponding Makefile that builds the binary firmware (i.e *project_name.elf*). Make use of it to individually build each firmware.
 
 
 ## Patching firmware with `aflCall`
