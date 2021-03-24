@@ -2,6 +2,7 @@
 # In Firmata.h change the following line of code 
 # `friend void FirmataMarshaller::encodeByteStream (size_t bytec, uint8_t * bytev, size_t max_bytes = 0) const` to
 # `friend void FirmataMarshaller::encodeByteStream (size_t bytec, uint8_t * bytev, size_t max_bytes) const;`
+# See reference https://github.com/fpistm/arduino/commit/a142327e5a1e1e3450b0774c93b7c642f827c60c
 
 .PHONY: clean build
 
