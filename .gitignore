@@ -1,4 +1,8 @@
 *.hex
 *.elf
+*.bin
 build
 *.o
+gcc-arm-none-eabi
+arduino-cli
+arduino-ide

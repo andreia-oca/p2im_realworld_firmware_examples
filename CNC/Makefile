@@ -1,6 +1,6 @@
 
 # cross compilation tools
-XTOOLS_DIR = /home/bo/iot/toolchains/gcc-arm-none-eabi-6-2017-q2-update/
+XTOOLS_DIR = ../gcc-arm-none-eabi/
 X_LIBC_DIR = $(XTOOLS_DIR)/arm-none-eabi/lib/armv7e-m/fpu
 X_LIBGCC_DIR = $(XTOOLS_DIR)/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu
 X_CC = $(XTOOLS_DIR)/bin/arm-none-eabi-gcc
@@ -9,7 +9,7 @@ X_AR = $(XTOOLS_DIR)/bin/arm-none-eabi-ar
 X_LD = $(XTOOLS_DIR)/bin/arm-none-eabi-ld
 X_GDB = $(XTOOLS_DIR)/bin/arm-none-eabi-gdb
 
-OUTPUT = grbl_stm32f4
+OUTPUT = cnc
 
 USB_SERIAL = 0
 
